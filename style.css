@@ -14,8 +14,10 @@
 h1 {
     margin-top: 0;
     font-family: Spartan;
-    font-size: 32px;
+    font-size: 24px;
     font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 h2 {
@@ -26,15 +28,16 @@ h2 {
 
 h3 {
     font-family: Spartan;
-    font-size: 24px;
-    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
 }
 
 h4 {
     font-family: Spartan;
     font-size: 16px;
-    font-weight: 700px;
+    font-weight: 700;
     text-transform: uppercase;
+    text-align: center;
 }
 
 body {
@@ -65,7 +68,7 @@ body {
     display: block;
 }
 .nav li {
-    display: inline-block;
+    display: block;
 }
 
 ul {
@@ -105,6 +108,7 @@ ul li {
     margin: 0;
     text-align: center;
     justify-content: center;
+    text-transform: none;
 }
 
 /* Prevents Vertical Margin Collapsing  */
@@ -131,15 +135,16 @@ ul li {
     color: white;
 }
 
+
 /* ======================
      MEDIA QUERIES
 ======================= */
 
 @media (min-width: 320px) and (max-width: 767px) {
 	.container {
-		width: 80%;
+		width: 100%;
 		max-width: 767px;
-        Margin: 0 auto;
+        Margin: 0 0;
         Padding: 0 16px;
     }
 
@@ -159,27 +164,89 @@ ul li {
         display: inline-block;
     }
 
+    h1 {
+        padding-top: 2rem;
+    }
+
     img {
         width: 100%;
-        height: 5rem;
+        height: 10rem;
     }
+
+    .skills {
+        width: 100%;
+        margin: 1rem 0;
+        padding: 2em 2rem;
+        background-color: #52489c;
+        justify-content: center;
+        text-align: center;
+        display: block;
+    }
+
+    .circles {
+        height: 10rem;
+        width: 10rem;
+        justify-content: center;
+        margin: 0 auto;
+        padding-top: 0 auto;
+    }
+
+    .footer-name {
+        float:left;
+        font-family:"Clicker Script";
+        font-size: 24px;
+        font-weight: 400; 
+        color: #2472aa;
+        text-transform: none;
+        padding-left: 1rem;
+        padding-top: 2rem;
+    }
+
+    .footer-menu {
+        display: none;
+
+    }
+
+    .main-footer {
+        background-color: #fafafa;
+    }
+
+    .top {
+        padding-top: 1rem;
+        padding-right: 1rem;
+        float:right;
+        color:#091d2b;
+        text-transform: uppercase;
+        font-size: 1rem;
+    }
+
 }
 
 
 
 /* Tablet Media Query  */
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) {
 
-}
-
-.name {
-    float:left; 
-}
-
-/* Desktop Media Query  */
-@media (min-width: 1024px) {
     .name {
         float:left; 
     }
 
+    .top {
+        display: none;
+    } 
+    
+
 }
+
+
+/* Desktop Media Query  */
+@media (min-width: 1024px) {
+    
+ 
+
+    .top {
+        display: none;
+        float: right;
+    } 
+
+   }
