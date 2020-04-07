@@ -303,17 +303,21 @@ ul li {
 
     .person {
         float:right;
+        background-color:#fafafa;
     }
 * 
     .intro {
         padding-top:16px;
         margin-right:8px;
         margin-bottom: 150px;
+        background-color:#fafafa;
     }
 
+    
     .introduction {
         width: 100%;
         background-color:#fafafa;
+        margin: 0 auto;
     }
 
     /* .clearfix p {
