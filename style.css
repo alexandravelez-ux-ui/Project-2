@@ -145,7 +145,7 @@ ul li {
 		width: 100%;
 		max-width: 767px;
         Margin: 0 0;
-        Padding: 0 16px;
+        Padding: 0 10px;
     }
 
     .header {
@@ -162,6 +162,7 @@ ul li {
     .name {
         text-align: center;
         display: inline-block;
+        padding: 1rem 0;
     }
 
     h1 {
@@ -207,8 +208,19 @@ ul li {
 
     }
 
+    .contact {
+        justify-content: center;
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+    }
+
+    body {
+        text-align: center;
+    }
     .main-footer {
         background-color: #fafafa;
+    
     }
 
     .top {
