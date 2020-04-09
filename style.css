@@ -57,7 +57,7 @@ body {
 
 .clearfix::after {
     content:"";
-    border:table;
+    display:table;
     clear:both;
 }
 
@@ -141,7 +141,11 @@ ul li {
      MEDIA QUERIES
 ======================= */
 
-@media (min-width: 320px) and (max-width: 767px) {
+/* ======================
+    MOBILE VIEW
+======================= */
+ 
+@media (min-width: 320px) {
 	.container {
 		width: 100%;
 		max-width: 767px;
@@ -174,9 +178,14 @@ ul li {
         font-size: 16px;
     }
 
+    p {
+        padding: 0 60px;
+        line-height: 1.5em;
+    }
+
     img {
         width: 100%;
-        height: 10rem;
+        height: 15rem;
     }
 
     .portfolio img {
@@ -244,6 +253,9 @@ ul li {
 }
 
 
+/* ======================
+     TABLET VIEW
+======================= */
 
 /* Tablet Media Query  */
 @media (min-width: 768px) {
@@ -301,32 +313,34 @@ ul li {
         text-align: right;
     }
 
+    p {
+        padding: 0 16px; 
+    }
+
     .person {
         float:right;
         background-color:#fafafa;
+        width: 50%;
+        height: 50%;
+        margin-bottom: 1rem;
     }
 * 
     .intro {
-        padding-top:16px;
-        margin-right:8px;
-        margin-bottom: 150px;
+        padding-top: 0rem;;
+        margin-top: 0px;
+        margin-right:0px;
+        margin-bottom: 0px;
         background-color:#fafafa;
+        float: left;
+        width:50%; 
     }
 
     
     .introduction {
         width: 100%;
         background-color:#fafafa;
-        margin: 0 auto;
+        margin: 2rem auto;
     }
-
-    /* .clearfix p {
-        float:left;
-    }
-
-    p {
-        float:left;
-    } */ */
 
     .top {
         display: none;
@@ -337,7 +351,39 @@ ul li {
         width:50%;
     }
 
+   .left-column {
+       float: left;
+   }
+
+   .right-column {
+       float:right; 
+   }
+
+   .portfolio p {
+       padding: 0 40px;
+   }
+
+   .skills p {
+       padding: 0 10rem 2rem 10rem;
+       line-height: 1.5rem;
+   }
+
+   .clearfix::after {
+    content:"";
+    display:table;
+    clear:both;
+    }
+
+   .contact p {
+        padding: 0 120px;
+        line-height: 1.5rem;
+        margin: 0 5rem; 
+   }
 }
+
+/* ======================
+     DESKTOP VIEW
+======================= */
 
 
 /* Desktop Media Query  */
