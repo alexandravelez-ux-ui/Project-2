@@ -364,7 +364,7 @@ ul li {
    }
 
    .skills p {
-       padding: 0 10rem 2rem 10rem;
+       padding: 0 15rem 2rem 15rem;
        line-height: 1.5rem;
    }
 
@@ -375,7 +375,7 @@ ul li {
    .contact p {
         padding: 0 80px;
         line-height: 1.5rem;
-        margin: 0 5rem; 
+        margin: 0 6rem; 
    }
 
    .footer-name {
@@ -385,14 +385,18 @@ ul li {
 
    .footer-menu {
        float:right; 
-       position:fixed;
+       display:inline; 
     }
 
-    .footer-tablet {
-        float:right;
-        display: initial;
+    .main-footer {
+        color: #4a4a4a;
+        font-weight: 700;
+        text-transform: uppercase;
     }
 
+    .main-footer li a {
+        display: inline;
+    }
 
 }
 
