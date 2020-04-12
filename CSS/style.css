@@ -177,8 +177,8 @@ ul li {
     .nav li {
         display: block;
         background-color: white;
-        padding: 1px 0;
-        margin: 4px 0;
+        padding: 0px 0;
+        margin: 0px 0;
     }
 
     .menu {
@@ -287,7 +287,7 @@ ul li {
         font-size: 1rem;
     }
 
-}
+
 
 
 /* ======================
@@ -321,8 +321,16 @@ ul li {
         display:block;
         margin: 0 0;
         font-size:32px;
+        color:#2472aa;
         padding-top:12px; 
         background-color: #fafafa;
+    }
+
+    a {
+        background-color:#fafafa;
+    }
+    .menu {
+        display:block;
     }
 
     .nav {
@@ -332,19 +340,24 @@ ul li {
     }
 
     .menu {
-        display: block;
+        display: inline-block;
         background-color: #fafafa;
        
     }
 
     .menu li {
-        display:block;
+        display:inline-block;
         text-decoration: none;
         text-align: center;
     }
 
+    .nav li {
+        background-color: #fafafa;
+        padding-right:24px;
+    }
+
     .menu li a {
-        display:block;
+        display:inline-block;
         text-decoration: none;
         text-align: center;
     }
@@ -408,7 +421,7 @@ ul li {
   } 
 
    .portfolio p {
-       padding: 0 40px;
+       padding: 0 24px;
    }
 
    .skills p {
