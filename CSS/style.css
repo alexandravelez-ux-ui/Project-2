@@ -490,7 +490,7 @@ ul li {
 @media (min-width: 1024px) {
     
     .nav {
-        margin-right:80px;
+        margin-right:0px;
     }
 
     .container {
@@ -516,7 +516,7 @@ ul li {
         font-size: 40px;
         padding-top: 24px;
         color: #2472aa;
-        padding-right: 100px;
+        padding-right: 0px;
     }
 
     .nav li {
@@ -564,7 +564,7 @@ ul li {
     } 
 
   .portfolio p {
-    padding: 0 20px;
+    padding: 0 0px;
     }
 
     .skill-1, .skill-2, .skill-3 {
@@ -588,7 +588,7 @@ ul li {
     }
 
     .contact p{
-        padding: 0 400px;
+        /* padding: 0 auto; */
         line-height: 1.5rem;
         margin: 0 6rem; 
         color: #7f7f7f;
