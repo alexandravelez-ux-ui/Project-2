@@ -131,6 +131,7 @@ ul li {
 
 .wrap {
 	min-height:Calc (100vh-89px);
+
 }
 
 /* Centers Footer Text  */
@@ -512,11 +513,11 @@ ul li {
     width:  32%;
     padding-left: 20px;
     padding-right: 20px;
-  } 
+    } 
 
   .portfolio p {
     padding: 0 20px;
-}
+    }
 
     .skill-1, .skill-2, .skill-3 {
         width:  33%;
@@ -530,7 +531,7 @@ ul li {
     } */
 
     .skills p {
-        padding: 0 0 ;
+        padding: 0 50px;
         margin-bottom: 40px;
     }
 
@@ -564,5 +565,5 @@ ul li {
         padding-top:12px;
 
     }
-
+}
 }
