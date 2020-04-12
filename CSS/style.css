@@ -72,9 +72,6 @@ body {
 .nav {
     display: block;
 }
-.nav li {
-    display: inline-block;
-}
 
 ul {
     list-style-type: none;
@@ -130,7 +127,7 @@ ul li {
 /* Wraps Nav to Content for Sticky Footer  */
 
 .wrap {
-	min-height:Calc (100vh-89px);
+	min-height:calc (100vh-89px);
 
 }
 
@@ -152,6 +149,7 @@ ul li {
 ======================= */
  
 @media (min-width: 320px) {
+
 	.container {
 		width: 100%;
 		max-width: 767px;
@@ -160,12 +158,14 @@ ul li {
     }
 
     a {
-        padding-right: 8px;
+        padding-right: 0px;
         text-decoration: none;
+        display: block;
     }
 
-    .header {
+    .main-header {
         text-align: center;
+        background-color: #fafafa;
     }
 
     .nav {
@@ -174,13 +174,39 @@ ul li {
         padding: 0px 16px;
     }
 
+    .nav li {
+        display: block;
+        background-color: white;
+        padding: 1px 0;
+        margin: 4px 0;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .menu li a {
+        display: block;
+    }
+
+    li {
+        display:block; 
+    }
 
     .name {
         text-align: center;
         display: inline-block;
-        padding: 1rem 0;
+        padding: 0 0;
+        font-size: 30px;
+        color:#2472aa;
     }
 
+    .person {
+        width:200px;
+        height:120px;
+    }
+
+    }
     h1 {
         padding-top: 2rem;
     }
@@ -190,7 +216,7 @@ ul li {
     }
 
     p {
-        padding: 0 60px;
+        padding: 0 0px;
         line-height: 1.5em;
     }
 
@@ -293,7 +319,7 @@ ul li {
     }
     .name {
         display:block;
-        margin: 0 auto;
+        margin: 0 0;
         font-size:32px;
         padding-top:12px; 
         background-color: #fafafa;
@@ -301,21 +327,26 @@ ul li {
 
     .nav {
         margin: 0 auto;
-        display:inline-block;
+        display: block;
         background-color: #fafafa;
     }
 
     .menu {
-        display: inline-block;
+        display: block;
         background-color: #fafafa;
        
     }
 
     .menu li {
-        display: inline-block;
-        padding-right: 16px;
+        display:block;
         text-decoration: none;
-        text-align: right;
+        text-align: center;
+    }
+
+    .menu li a {
+        display:block;
+        text-decoration: none;
+        text-align: center;
     }
 
     li a {
@@ -355,7 +386,7 @@ ul li {
     .top {
         display: none;
     } 
-     
+/*      
     .left-column,
     .right-column {
         width:50%;
@@ -367,7 +398,7 @@ ul li {
 
    .right-column {
        float:right;  
-   }
+   } */
 
    .three {
     float: left;
@@ -450,7 +481,7 @@ ul li {
     }
 
     .container {
-        margin-right: 80px;
+        margin-right: 0px;
     }
 
     /* .menu {
@@ -479,6 +510,10 @@ ul li {
         padding-top: 0px;
     }
 
+    li {
+        padding: 0px;
+    }
+    
     li a {
         font-size:20px;
         padding-top:16px; 
