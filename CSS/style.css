@@ -214,7 +214,7 @@ ul li {
 
     }
     h1 {
-        padding-top: 24px;
+        padding-top: 30px;
     }
 
     h3 {
@@ -238,8 +238,8 @@ ul li {
 
     .skills {
         width: 100%;
-        margin: 1rem 0;
-        padding: 2em 2rem;
+        margin: 0 0;
+        padding: 0 2rem;
         background-color: #52489c;
         justify-content: center;
         text-align: center;
@@ -374,6 +374,10 @@ ul li {
         display:inline-block;
         text-decoration: none;
         text-align: right;
+    }
+
+    h1 {
+        padding-top:50px;
     }
 
     .person {
@@ -513,6 +517,10 @@ ul li {
         margin-right:80px;
     } */
 
+    h1 {
+        padding-top:60px;
+    }
+
     .top {
         display: none;
         float: right;
@@ -559,6 +567,7 @@ ul li {
 
     .person {
         width:40%;
+        margin-top:-8px;
     }
 
     .left-column,
@@ -601,8 +610,8 @@ ul li {
         margin-bottom: 40px;
     }
 
-    .skills {
-        margin-top: 40px;
+    .Skills {
+        margin-top: 0px;
     }
 
     .contact {
