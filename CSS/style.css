@@ -66,6 +66,9 @@ body {
     clear:both;
 }
 
+html {
+    background-color: #fafafa;
+}
 /* ======================
      NAVIGATION 
 ======================= */
@@ -116,7 +119,7 @@ ul li {
 
 /* Prevents Vertical Margin Collapsing  */
 .main-header {
-    padding: 1em 0px; 
+    padding: 0px 0px; 
     text-align: center;
 }
 
@@ -158,7 +161,7 @@ ul li {
     }
 
     a {
-        padding-right: 0px;
+        padding: 6px 0px;
         text-decoration: none;
         display: block;
     }
@@ -166,6 +169,7 @@ ul li {
     .main-header {
         text-align: center;
         background-color: #fafafa;
+        margin:0 0; 
     }
 
     .nav {
@@ -178,7 +182,7 @@ ul li {
         display: block;
         background-color: white;
         padding: 0px 0;
-        margin: 0px 0;
+        margin: -16px 0;
     }
 
     .menu {
@@ -196,7 +200,8 @@ ul li {
     .name {
         text-align: center;
         display: inline-block;
-        padding: 0 0;
+        padding-bottom: 4px;
+        margin-bottom: 8px;
         font-size: 30px;
         color:#2472aa;
     }
@@ -204,11 +209,12 @@ ul li {
     .person {
         width:200px;
         height:120px;
+        margin-top: 32px;
     }
 
     }
     h1 {
-        padding-top: 2rem;
+        padding-top: 24px;
     }
 
     h3 {
@@ -225,8 +231,9 @@ ul li {
         height: 15rem;
     }
 
+   
     .portfolio img {
-        padding-top: 2rem; 
+        padding-top: 24px; 
     }
 
     .skills {
@@ -322,7 +329,8 @@ ul li {
         margin: 0 0;
         font-size:32px;
         color:#2472aa;
-        padding-top:12px; 
+        padding-top:12px;
+        margin-bottom:12px; 
         background-color: #fafafa;
     }
 
@@ -413,12 +421,16 @@ ul li {
        float:right;  
    } */
 
+   .portfolio {
+       background-color: white;
+   }
+
    .three {
     float: left;
     width:  50%;
     padding-left: 20px;
     padding-right: 20px;
-  } 
+    } 
 
    .portfolio p {
        padding: 0 24px;
@@ -434,7 +446,7 @@ ul li {
     }
 
     .contact {
-        background-color: white;
+        background-color: #f4f4f4;
         width:100%;
     }
 
@@ -493,9 +505,9 @@ ul li {
         margin-right:0px;
     }
 
-    .container {
+    /* .container {
         margin-right: 0px;
-    }
+    } */
 
     /* .menu {
         margin-right:80px;
@@ -507,7 +519,7 @@ ul li {
     } 
 
     .container {
-        width: 80%;
+        width: 90%;
         max-width: 1150px;
     }
 
@@ -520,7 +532,7 @@ ul li {
     }
 
     .nav li {
-        padding-top: 0px;
+        padding-top: 12px;
     }
 
     li {
@@ -530,6 +542,7 @@ ul li {
     li a {
         font-size:20px;
         padding-top:16px; 
+        background-color: #fafafa;
     }
 
     .menu {
@@ -541,6 +554,11 @@ ul li {
         font-size:22px;
         text-align: left;
         color: #7f7f7f;
+        width:60%; 
+    }
+
+    .person {
+        width:40%;
     }
 
     .left-column,
@@ -579,7 +597,7 @@ ul li {
     } */
 
     .skills p {
-        padding: 0 50px;
+        padding: 0 25px;
         margin-bottom: 40px;
     }
 
@@ -587,16 +605,22 @@ ul li {
         margin-top: 40px;
     }
 
+    .contact {
+        background-color: #fafafa;
+    }
+
     .contact p{
-        /* padding: 0 auto; */
+        padding: 0 170px;
         line-height: 1.5rem;
         margin: 0 6rem; 
         color: #7f7f7f;
+        background-color: #fafafa;
     }
 
     .main-footer {
         margin-top: 16px; 
         margin-right:80px;
+        background-color: #fafafa;
     }
 
     .footer-name {
@@ -606,11 +630,17 @@ ul li {
         color: #2472aa;
         padding-right: 40px;
         margin-left:88px;
+        background-color: #fafafa;
+    }
+
+    .footer-menu {
+        background-color: #fafafa;
     }
 
     .footer-menu li {
         font-size: 0px;
         padding-top:12px;
+        background-color: #fafafa;
 
     }
 }
